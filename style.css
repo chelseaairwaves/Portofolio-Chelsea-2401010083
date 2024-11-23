@@ -24,7 +24,6 @@ body{
 
 header{
     margin-top: 5px;
-    position: fixed;
     top: 0;
     left: 0;
     width: 100%;
@@ -106,7 +105,7 @@ section{
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 8rem;
+    gap: 10rem;
     background-color: rgb(0, 0, 0);
 }
 
@@ -259,7 +258,6 @@ span{
 @media(max-width:995px){
     .home{
         flex-direction: column;
-        margin: 5rem 4rem;
     }
 
     .home .home-content h3{
