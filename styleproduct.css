@@ -1,0 +1,129 @@
+/* Reset default browser styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #f07605;
+    color: whitesmoke;
+  }
+  
+  /* Header styling */
+  header {
+    text-align: center;
+    background-color: #f3bc09;
+    padding: 20px;
+    border-bottom: 3px solid #f9cb9c;
+  }
+  
+  header h1 {
+    font-size: 2.5rem;
+    color: whitesmoke;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  header p {
+    font-size: 1.2rem;
+    color: whitesmoke;
+    
+  }
+  
+  /* Product section styling */
+  .products {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+    flex-wrap: wrap;
+  }
+  
+  .product-card {
+    background: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    width: 300px;
+    padding: 15px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s, box-shadow 0.2s;
+  }
+  
+  .product-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .product-card img {
+    width: 100%;
+    border-radius: 10px;
+  }
+  
+  .product-card h2 {
+    font-size: 1.5rem;
+    color: #555;
+    margin: 15px 0;
+  }
+  
+  .product-card p {
+    font-size: 1.2rem;
+    color: #888;
+  }
+  
+  .buy-button {
+    background-color: #f78da7;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .buy-button:hover {
+    background-color: #f45c6f;
+  }
+
+  .container {
+    display: flex;
+    justify-content: flex-end; /* Pindahkan tombol ke kanan */
+    padding: 1rem;
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.5rem 2.5rem;
+    background-color: rgb(233, 133, 3);
+    border-radius: 4rem;
+    font-size: 1.6rem;
+    color: #eee1e1;
+    letter-spacing: 0.3rem;
+    font-weight: 600;
+    border: 2px solid #f3f0f0;
+    transition: 0.3s ease;
+    cursor: pointer;
+}
+
+.btn:hover{
+    transform: scale3d(1.03);
+    background-color: #faf1f1;
+    color: rgb(247, 143, 9);
+    box-shadow: 0 0 25px #f3f2f2;
+}
+
+  
+  /* Footer styling */
+  footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #f3e5ab;
+    color: #555;
+    border-top: 3px solid #f9cb9c;
+  }
+  

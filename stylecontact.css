@@ -1,0 +1,154 @@
+/* General Styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to bottom, #e9f4fb, #ffffff);
+    color: #333;
+    line-height: 1.6;
+}
+
+.container {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 20px;
+    background: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+/* Header */
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #0078d7;
+    margin: 0;
+    text-transform: uppercase;
+    position: relative;
+}
+
+header h1::after {
+    content: '';
+    display: block;
+    width: 80px;
+    height: 4px;
+    background: #0078d7;
+    margin: 10px auto 0;
+    border-radius: 2px;
+}
+
+/* Main Content */
+main {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.contact-info, .address {
+    padding: 20px;
+    background: #f9fbfd;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.contact-info:hover, .address:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.contact-info h2, .address h2 {
+    font-size: 1.8rem;
+    margin-bottom: 15px;
+    color: #0056a6;
+    border-left: 4px solid #0078d7;
+    padding-left: 10px;
+}
+
+p {
+    margin: 8px 0;
+}
+
+.contact-info p strong, .address p strong {
+    color: #0056a6;
+}
+
+/* Map Section */
+.map-container {
+    margin-top: 10px;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+iframe {
+    border: none;
+    border-radius: 8px;
+}
+
+.container-btn {
+    display: flex;
+    justify-content: flex-end; /* Pindahkan tombol ke kanan */
+    padding: 1rem;
+}
+
+.btn-1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.5rem 2.5rem;
+    background-color: rgb(26, 25, 25);
+    border-radius: 4rem;
+    font-size: 1.6rem;
+    color: #eee1e1;
+    letter-spacing: 0.3rem;
+    font-weight: 600;
+    border: 2px solid #f3f0f0;
+    transition: 0.3s ease;
+    cursor: pointer;
+}
+
+.btn-1:hover{
+    transform: scale3d(1.03);
+    background-color: #faf1f1;
+    color: rgb(20, 20, 19);
+    box-shadow: 0 0 25px #f3f2f2;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px;
+    background: #f1f1f1;
+    color: #555;
+    font-size: 0.9rem;
+    border-top: 2px solid #e6e6e6;
+}
+
+footer p {
+    margin: 0;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .container {
+        margin: 20px;
+        padding: 15px;
+    }
+
+    header h1 {
+        font-size: 2rem;
+    }
+
+    .contact-info h2, .address h2 {
+        font-size: 1.5rem;
+    }
+}
+

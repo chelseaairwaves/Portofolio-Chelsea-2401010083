@@ -1,0 +1,158 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #1c1c1d;
+    color: #333;
+    line-height: 1.6;
+    scroll-behavior: smooth;
+}
+
+/* Header */
+header {
+    text-align: center;
+    background: linear-gradient(135deg, #e01469, #ca2f49);
+    color: white;
+    padding: 40px 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+header h1 {
+    font-size: 3em;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 1.3em;
+    opacity: 0.9;
+}
+
+marquee {
+    font-size: 20px;
+}
+
+/* Section Titles */
+h1{
+    font-size: 50px;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #f1e6ec;
+}
+h2 {
+    font-size: 2.5em;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #f1248b;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+}
+
+/* Biodata */
+.biodata {
+    padding: 20px;
+    max-width: 900px;
+    margin: 20px auto;
+    background: white;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.biodata ul {
+    list-style: none;
+    padding: 20px;
+    line-height: 1.8;
+}
+
+.biodata ul li {
+    font-size: 1.2em;
+    margin: 10px 0;
+}
+
+.biodata ul li strong {
+    color: #ad0b5c;
+}
+
+ /* Product section styling */
+ .about {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+    flex-wrap: wrap;
+  }
+  
+  .about-card {
+    background: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    width: 300px;
+    padding: 15px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s, box-shadow 0.2s;
+  }
+  
+  .about-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .about-card img {
+    width: 100%;
+    border-radius: 10px;
+  }
+  
+  .about-card h2 {
+    font-size: 1.5rem;
+    color: #555;
+    margin: 15px 0;
+  }
+  
+  .about-card p {
+    font-size: 1.2rem;
+    color: #888;
+  }
+
+  .container {
+    display: flex;
+    justify-content: flex-end; /* Pindahkan tombol ke kanan */
+    padding: 1rem;
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.5rem 2.5rem;
+    background-color: black;
+    border-radius: 4rem;
+    font-size: 1.6rem;
+    color: #b74b4b;
+    letter-spacing: 0.3rem;
+    font-weight: 600;
+    border: 3px solid #b74b4b;
+    transition: 0.3s ease;
+    cursor: pointer;
+}
+
+.btn:hover{
+    transform: scale3d(1.03);
+    background-color: #b74b4b;
+    color: black;
+    box-shadow: 0 0 25px #b74b4b;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    background: linear-gradient(135deg, #f31396, #e2166b);
+    color: white;
+    padding: 15px;
+    font-size: 1em;
+    margin-top: 20px;
+    box-shadow: 0 -2px 6px rgba(0, 0, 0, 0.2);
+}
